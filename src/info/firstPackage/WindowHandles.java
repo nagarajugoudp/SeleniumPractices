@@ -16,7 +16,7 @@ public class WindowHandles {
 		System.out.println("Window Handles example")
 		System.setProperty("webdriver.chrome.driver", "D://selenium//chromedriver.exe");
 		WebDriver driver=new ChromeDriver();
-		System.out.println("Browser initialization");
+		System.out.println("Browser initialization completed");
 		driver.manage().window().maximize();
 		System.out.println("Maximize window");
 		driver.get("https://www.toolsqa.com/automation-practice-switch-windows/");
