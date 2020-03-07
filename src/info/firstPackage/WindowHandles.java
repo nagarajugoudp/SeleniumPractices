@@ -12,6 +12,7 @@ public class WindowHandles {
 
 	public static void main(String[] args) throws InterruptedException {
 		// TODO Auto-generated method stub
+		//testing
 		System.setProperty("webdriver.chrome.driver", "D://selenium//chromedriver.exe");
 		WebDriver driver=new ChromeDriver();
 		System.out.println("Browser initialization");
