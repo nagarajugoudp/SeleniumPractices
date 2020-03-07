@@ -13,7 +13,7 @@ public class WindowHandles {
 	public static void main(String[] args) throws InterruptedException {
 		// TODO Auto-generated method stub
 		//testing
-		System.out.println("Window Handles example")
+		System.out.println("Window Handles example");
 		System.setProperty("webdriver.chrome.driver", "D://selenium//chromedriver.exe");
 		WebDriver driver=new ChromeDriver();
 		System.out.println("Browser initialization completed");
@@ -21,7 +21,7 @@ public class WindowHandles {
 		System.out.println("Maximize window");
 		driver.get("https://www.toolsqa.com/automation-practice-switch-windows/");
 		System.out.println("hit the url :"+driver.getCurrentUrl());
-		
+		System.out.println("window handle");
 		String ParentWindow=driver.getWindowHandle();
 		System.out.println("Parent window :"+ParentWindow);
 		Thread.sleep(500);
